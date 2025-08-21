@@ -2,34 +2,8 @@
 
 ## 🏗️ Структура проекта
 
-TestMAST/
-├── dist/        # Собранные exe-файлы
-│		├── server/
-│		│		├── internal/
-│		│		└── server.exe
-│		└──	client.exe
-├── specs/                # Конфиги для сборки
-│   ├── server.spec      # Конфиг сборки сервера
-│   └── client.spec      # Конфиг сборки клиента
-├── src/                    
-│   ├── server/            # Серверная часть
-│   │		├──		routers/		 # Маршрутизация 
-│   │		│		└── items.py
-│   │   ├── __init__.py
-│   │   ├── main.py        # Основной файл сервера
-│   │   ├── database.py    # Настройки базы данных
-│   │   └── models.py      # Модели данных 
-│   └── client/            # Клиентская часть (PyQt5)
-│       ├── __init__.py
-│       ├── main.py        # Точка входа клиента
-│       ├── app.py         # Основной класс приложения
-│       └── api_client.py  # Клиент для работы с API
-├── tests/                 # Тесты
-│   ├── test_server.py    # Тесты сервера
-│   └── test_client.py    # Тесты клиента
-├──	.gitignore
-├── pytest.ini
-└── README.md            # Эта документация
+<img width="859" height="698" alt="image" src="https://github.com/user-attachments/assets/fcb7026f-9553-4119-ba69-b5bac733f084" />
+
 
 ## 📦 Зависимости
 
